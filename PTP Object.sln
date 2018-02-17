@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lwProtocol", "PTP Object.vcxproj", "{F70610D4-765F-45C4-853E-D30FB2511610}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lwpServer", "lwpServer\lwpServer.vcxproj", "{391C1692-0BEE-4570-B4EF-14E72551EC13}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lwpClient", "lwpClient\lwpClient.vcxproj", "{B108A70F-65F7-40B6-88CD-B41F2C750CB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F70610D4-765F-45C4-853E-D30FB2511610}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F70610D4-765F-45C4-853E-D30FB2511610}.Debug|Win32.Build.0 = Debug|Win32
+		{F70610D4-765F-45C4-853E-D30FB2511610}.Release|Win32.ActiveCfg = Release|Win32
+		{F70610D4-765F-45C4-853E-D30FB2511610}.Release|Win32.Build.0 = Release|Win32
+		{391C1692-0BEE-4570-B4EF-14E72551EC13}.Debug|Win32.ActiveCfg = Debug|Win32
+		{391C1692-0BEE-4570-B4EF-14E72551EC13}.Debug|Win32.Build.0 = Debug|Win32
+		{391C1692-0BEE-4570-B4EF-14E72551EC13}.Release|Win32.ActiveCfg = Release|Win32
+		{391C1692-0BEE-4570-B4EF-14E72551EC13}.Release|Win32.Build.0 = Release|Win32
+		{B108A70F-65F7-40B6-88CD-B41F2C750CB9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B108A70F-65F7-40B6-88CD-B41F2C750CB9}.Debug|Win32.Build.0 = Debug|Win32
+		{B108A70F-65F7-40B6-88CD-B41F2C750CB9}.Release|Win32.ActiveCfg = Release|Win32
+		{B108A70F-65F7-40B6-88CD-B41F2C750CB9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6572A406-17B4-496B-8D79-7949B293FE59}
+	EndGlobalSection
+EndGlobal
